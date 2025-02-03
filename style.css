@@ -1,0 +1,71 @@
+body {
+  background-color: #000000;
+  font-family: 'Consolas', 'Courier New', monospace;
+}
+
+#title {
+    text-align: center;
+}
+
+.thingamajig {
+  padding-left: 20px;
+}
+
+#intro {
+  text-align: center;
+}
+
+.things_i_like {
+  border: 10px double;
+  display: flex; /* Use Flexbox for layout */
+  flex-wrap: wrap; /* Allows images to wrap onto multiple lines */
+  margin: 10px;
+  padding: 10px;
+}
+
+.image-container img, iframe {
+  height: 250px; /* Sets the height */
+  width: auto;   /* Maintains aspect ratio by adjusting the width */
+}
+
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url('images/CRT.png') repeat center center;
+    background-size: 100%;
+    opacity: 0.3;
+    pointer-events: none; /* Makes it unclickable */
+    z-index: 1000; /* Ensures it’s on top */
+}
+
+#canv {
+    position: fixed; /* Use fixed to ensure canvas covers the viewport */
+    top: 0;
+    left: 0;
+    width: 100%; /* Cover the full width */
+    height: 100%; /* Cover the full height */
+    z-index: -1; /* Place canvas behind other content */
+}
+
+#pfp {
+    user-select: none;
+}
+
+#confettiGif {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+  pointer-events: none;
+  z-index: 1001;
+}
+
+.notice {
+  text-align: center;
+}
