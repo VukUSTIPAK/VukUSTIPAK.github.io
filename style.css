@@ -87,5 +87,6 @@ body {
 
   .title_mobile {
       display: block;
+      text-width: 80%;
   }
 }
