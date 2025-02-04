@@ -69,3 +69,17 @@ body {
 .notice {
   text-align: center;
 }
+
+.title_mobile {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .title_desktop {
+      display: none;
+  }
+
+  .title_mobile {
+      display: block;
+  }
+}
