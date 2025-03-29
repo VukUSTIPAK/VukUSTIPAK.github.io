@@ -5,7 +5,7 @@ const konamiCode = [
 ];
 
 let konamiIndex = 0;
-let kittyDisplay = false; // Track visibility state of the kitty
+let kittyDisplay = false;
 
 const kitty = document.getElementById("oneko");
 kitty.style.display = "none";
@@ -16,25 +16,22 @@ document.addEventListener('keydown', (event) => {
         if (konamiIndex === konamiCode.length) {
             document.getElementById('konamiSound').play();
 
-            // Reset the GIF by reloading its src
             const gif = document.getElementById('confettiGif');
-            gif.style.display = 'none'; // Hide it first
-            gif.src = ''; // Clear the src
-            gif.src = 'images/confetti.gif'; // Reset the src
-            gif.style.display = 'block'; // Show the GIF
+            gif.style.display = 'none';
+            gif.src = '';
+            gif.src = 'images/confetti.gif';
+            gif.style.display = 'block';
 
-            // Toggle the visibility of the kitty
             kittyDisplay = !kittyDisplay;
             kitty.style.display = kittyDisplay ? "block" : "none";
 
-            // Hide the GIF after 5 seconds
             setTimeout(() => {
                 gif.style.display = 'none';
             }, 5000);
 
-            konamiIndex = 0; // Reset for next use
+            konamiIndex = 0;
         }
     } else {
-        konamiIndex = 0; // Reset if wrong key is pressed
+        konamiIndex = 0;
     }
 });
