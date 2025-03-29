@@ -60,6 +60,11 @@ body {
     user-select: none;
 }
 
+#jay {
+    user-select: none;
+    height: 150px;
+}
+
 #confettiGif {
   display: none;
   position: fixed;
