@@ -5,6 +5,8 @@ document.addEventListener('DOMContentLoaded', function() {
     { href: "https://echoesofarcane.itch.io/farbeyondtheworld", src: "https://img.itch.zone/aW1nLzY3MjEwMTgucG5n/315x250%23c/VW0CSt.png", alt: "Far Beyond the World " },
     { href: "https://cryptiddog.itch.io/roadsyettraveled", src: "https://img.itch.zone/aW1nLzEwMzI4NTU2LnBuZw==/315x250%23c/jMqWid.png", alt: "Roads Yet Traveled " },
     { href: "https://en.wikipedia.org/wiki/Wolf", src: "https://api.tinyfox.dev/img?animal=woof", alt: "Wolf " },
+    { href: "https://en.wikipedia.org/wiki/Snow_leopard", src: "https://api.tinyfox.dev/img?animal=snep", alt: "Snow leopard " },
+    { href: "https://en.wikipedia.org/wiki/Raccoon", src: "https://api.tinyfox.dev/img?animal=racc", alt: "Raccoon "},
     { href: "https://jerichowo.itch.io/remember-the-flowers", src: "https://img.itch.zone/aW1nLzc5MTA0NDgucG5n/315x250%23c/8tZTkB.png", alt: "Remember the Flowers " },
     { href: "https://atmac.itch.io/lyre", src: "https://img.itch.zone/aW1nLzE0MTkxMjY4LnBuZw==/315x250%23c/zKz%2BjJ.png", alt: "Lyre " },
     { href: "https://store.steampowered.com/app/400/Portal/", src: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/400/header.jpg", alt: "Portal " },
