@@ -20,7 +20,7 @@ document.addEventListener('DOMContentLoaded', function() {
     { src: "images/lyall.png", alt: "Lyall " },
     { src: "https://static.wikia.nocookie.net/beastars-eng/images/8/87/Legoshi_%28Anime%29_S2.png", alt: "Legoshi " },
     { src: "images/marruk.png", alt: "Marruk " },
-    { src: "https://static.wikia.nocookie.net/zenless-zone-zero/images/5/5f/Agent_Von_Lycaon_Portrait.png", alt: "Marruk " },
+    { src: "https://static.wikia.nocookie.net/zenless-zone-zero/images/5/5f/Agent_Von_Lycaon_Portrait.png", alt: "Von Lycaon " },
   ];
 
   const container = document.createElement('div');
