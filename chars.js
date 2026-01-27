@@ -21,8 +21,8 @@ document.addEventListener('DOMContentLoaded', function() {
     { src: "https://static.wikia.nocookie.net/beastars-eng/images/8/87/Legoshi_%28Anime%29_S2.png", alt: "Legoshi " },
     { src: "images/marruk.png", alt: "Marruk " },
     { src: "https://static.wikia.nocookie.net/zenless-zone-zero/images/5/5f/Agent_Von_Lycaon_Portrait.png", alt: "Von Lycaon " },
-    { src: "https://static.wikia.nocookie.net/fallout/images/0/05/The_Ghoul_TV_infobox.png/revision/latest/scale-to-width-down/268?cb=20240604021336", alt: "THE GHOUL " },
-    { src: "https://static.wikia.nocookie.net/twinpeaks/images/8/81/Dale_Cooper_%282010s%29.jpg/revision/latest?cb=20170815022327", alt: "Dale Cooper " },
+    { src: "https://static.wikia.nocookie.net/fallout/images/0/05/The_Ghoul_TV_infobox.png", alt: "THE GHOUL " },
+    { src: "https://static.wikia.nocookie.net/twinpeaks/images/8/81/Dale_Cooper_%282010s%29.jpg", alt: "Dale Cooper " },
   ];
 
   const container = document.createElement('div');
