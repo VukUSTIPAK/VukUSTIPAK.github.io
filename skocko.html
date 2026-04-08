@@ -1,0 +1,64 @@
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Skocko</title>
+        <script src="skocko.js" defer></script>
+        <link rel="stylesheet" href="skocko.css">
+    </head>
+    <body>
+        <div id="symbol-buttons">
+            <button type="button" data-value="0">🦉</button>
+            <button type="button" data-value="1">♣️</button>
+            <button type="button" data-value="2">♠️</button>
+            <button type="button" data-value="3">❤️</button>
+            <button type="button" data-value="4">♦️</button>
+            <button type="button" data-value="5">⭐</button>
+        </div>
+        <div id="controls">
+            <div>
+                Trenutni pokušaj: <span id="current-guess">----</span>
+            </div>
+            <button type="button" id="clear-guess">Obriši</button>
+            <button type="button" id="submit-guess">Pošalji</button>
+        </div>
+        <div id="feedback-input">
+            <label>
+                Crvenih:
+                <input type="number" id="correct" min="0" max="4" value="0" />
+            </label>
+            <label>
+                Žutih:
+                <input type="number" id="near" min="0" max="4" value="0" />
+            </label>
+        </div>
+
+        <table id="suggested-table">
+            <thead>
+                <tr>
+                    <th>Trenutni prijedlog</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td id="suggested-value">----</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <div id="remaining-count">Preostalih mogućnosti: 216</div>
+
+        <table id="output">
+            <thead>
+                <tr>
+                    <th>Pokušaj</th>
+                    <th>Crvenih</th>
+                    <th>Zutih</th>
+                </tr>
+            </thead>
+            <tbody></tbody>
+        </table>
+
+        <div id="message"></div>
+    </body>
+</html>
